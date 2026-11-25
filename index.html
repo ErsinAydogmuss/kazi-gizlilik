@@ -65,7 +65,7 @@
 
   <article id="tr" lang="tr">
     <h1>Gizlilik Politikası</h1>
-    <p class="date">Yürürlük tarihi: 11 Kasım 2026 (0.14.2: iPhone'da Meta reklam ölçümü; önceki sürüm 3 Kasım 2026)</p>
+    <p class="date">Yürürlük tarihi: 25 Kasım 2026 (0.16.0: uygulama içi satın alma; önceki sürüm 11 Kasım 2026)</p>
     <p class="summary">Kısaca: Kazı'nın kendisi kişisel veri toplamaz; oyun ilerlemen yalnızca cihazında saklanır. Oyun ücretsiz kalsın diye Google AdMob reklamları gösterir. Reklamlar için cihazının reklam kimliği, yaklaşık konumun (IP adresinden) ve reklamlarla etkileşimin gibi bilgiler Google'a gider. iPhone'da, izleme izni sorulduktan sonra, oyunun kurulduğu ve açıldığı reklamlarımızı ölçmek için Meta'ya bildirilir. Ödüllü reklamları izlemek senin seçimin.</p>
 
     <h2>1. Biz kimiz</h2>
@@ -79,6 +79,7 @@
     <ul>
       <li>Oyun ilerlemen: kazı alanı, bulduğun eşyalar, akçen, görevlerin ve ayarların (dil, ses, kamera).</li>
       <li>Kazıcına verdiğin ad (isteğe bağlı; varsayılan ad "Kazım"). Gerçek adını yazmak zorunda değilsin.</li>
+      <li>Satın aldığın haritalar (yalnızca ürünün adı, örneğin Göbeklitepe), haritanın açık kalması için.</li>
       <li>Reklam sayaçları: bugün hangi ödüllü reklamı kaç kez izlediğin, toplam oyun süresi ve "Reklamlar hakkında" notunu gördüğün. Yalnızca reklamların sıklığını sınırlamak için kullanılır.</li>
       <li>En son ne zaman oynadığın ve blok dokularının önbelleği.</li>
     </ul>
@@ -98,16 +99,20 @@
     <h2>4a. Reklam ölçümü (Meta, yalnızca iPhone)</h2>
     <p>Kazı'yı Instagram ve Facebook'ta reklamla tanıtıyoruz. Bu reklamların işe yarayıp yaramadığını ölçmek için oyunun iPhone sürümünde (0.14.2'den itibaren) Meta Platforms'un ölçüm yazılımı (Meta SDK) bulunur. Bu yazılım ancak Apple'ın izleme izni sorulup sen cevap verdikten sonra çalışır. Oyunun kurulduğunu ve açıldığını, cihazın modelini, işletim sistemini, dil ve saat dilimini ve kabaca IP adresini Meta'ya bildirir; izleme iznini verdiysen cihazın reklam kimliğini (IDFA) de. Oyunda Facebook ya da Instagram hesabıyla giriş yoktur; oyunun içinde ne yaptığın Meta'ya gönderilmez. Meta bu bilgileri reklamların sonucunu ölçmek ve reklamlarımızı ilgilenebilecek kişilere göstermek için kullanır; izni vermezsen Apple'ın SKAdNetwork yöntemiyle, kimliğini göstermeyen toplu ölçüm yapılır. Ayrıntılar: <a href="https://www.facebook.com/privacy/policy/">Meta Gizlilik Politikası</a>. İzni istediğin an iPhone'un Ayarlar → Gizlilik ve Güvenlik → İzleme bölümünden kapatabilirsin. Android sürümünde Meta'nın yazılımı yoktur.</p>
 
+    <h2>4b. Uygulama içi satın alma</h2>
+    <p>İlk üç harita ücretsizdir; dördüncü harita Göbeklitepe, Google Play ya da App Store üzerinden <strong>tek seferlik bir uygulama içi satın almayla</strong> açılır. Ödemeyi ve ödeme bilgilerini (kart, fatura, hesap) yalnızca Google ya da Apple işler; biz bunları görmeyiz. Oyun, satın alımın yapıldığını cihazında saklar ve açılışta mağazanın kendi yazılımıyla (Google Play Billing, Apple StoreKit) hesabındaki satın alımları sorar; böylece telefon değişince ya da oyun yeniden kurulunca harita geri gelir (<strong>Ayarlar → Satın alımlar → Geri yükle</strong>). Bu bilgi bize ya da başka birine gönderilmez. İadeler mağazanın kurallarıyla yapılır (<a href="https://support.google.com/googleplay/answer/2479637">Google Play</a>, <a href="https://support.apple.com/118223">App Store</a>).</p>
+
     <h2>5. İzinler ve cihaz özellikleri</h2>
     <ul>
-      <li><strong>İnternet ve ağ durumu:</strong> yalnızca reklamları yüklemek için.</li>
+      <li><strong>İnternet ve ağ durumu:</strong> yalnızca reklamları yüklemek ve mağazanın satın alımları sorması için.</li>
+      <li><strong>Satın alma (Android'de BILLING):</strong> Google Play'in satın alma penceresini açmak için.</li>
       <li><strong>Reklam kimliği (Android'de AD_ID):</strong> reklamlar için Google'ın reklam yazılımı ister.</li>
       <li><strong>Titreşim:</strong> kazarken ve bir şey bulduğunda kısa titreşimle geri bildirim vermek için.</li>
       <li><strong>Cihazın saati ve tarihi:</strong> gece kampı, özel günlerdeki sürprizler ve Günün Kazısı için cihazında okunur, bize gönderilmez.</li>
     </ul>
 
     <h2>6. Uygulama mağazaları</h2>
-    <p>Oyunu Google Play ya da App Store'dan indirdiğinde bu mağazalar kendi gizlilik politikalarına göre veri işler (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/legal/privacy/">Apple</a>). Mağazalar, AdMob ve Meta bize yalnızca kimliğini göstermeyen toplu istatistikler sunar: indirme sayısı, ülke, cihaz modeli, çökme raporları ve reklam gelirleri gibi.</p>
+    <p>Oyunu Google Play ya da App Store'dan indirdiğinde bu mağazalar kendi gizlilik politikalarına göre veri işler (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/legal/privacy/">Apple</a>). Mağazalar, AdMob ve Meta bize yalnızca kimliğini göstermeyen toplu istatistikler sunar: indirme sayısı, ülke, cihaz modeli, çökme raporları, reklam ve satış gelirleri gibi.</p>
 
     <h2>7. Çocuklar</h2>
     <p>Kazı 13 yaş ve üstü oyuncular için yayımlanır. 13 yaşından küçük çocukların kişisel verisini bilerek işlemeyiz; reklamlar aile dostu içerikle sınırlıdır. Çocuğunun oyunu oynadığını düşünen bir ebeveynsen bize yazabilirsin.</p>
@@ -116,7 +121,7 @@
     <p>Bizde senin hakkında tutulan bir veri olmadığı için silinecek, düzeltilecek ya da sana verilecek bir veri yoktur. Cihazındaki oyun verilerini oyunu silerek tamamen silebilirsin. Google'ın işlediği reklam verileri için 4. maddedeki seçimleri ve Google'ın kendi araçlarını kullanabilirsin. Meta'nın işlediği ölçüm verileri için iPhone'da izleme iznini kapatabilir, Meta'nın <a href="https://www.facebook.com/help/contact/540977946302970">veri isteği formunu</a> kullanabilir ya da bize yazabilirsin; isteğini Meta'ya iletiriz. KVKK'nın 11. maddesindeki (ve GDPR gibi başka yasalardaki) hakların için bize yazabilirsin.</p>
 
     <h2>9. Değişiklikler</h2>
-    <p>Oyuna yeni bir veri işleme (örneğin uygulama içi satın alma ya da çevrimiçi özellik) eklersek bu politikayı o sürüm yayımlanmadan önce güncelleriz ve yürürlük tarihini değiştiririz.</p>
+    <p>Oyuna yeni bir veri işleme (örneğin çevrimiçi bir özellik) eklersek bu politikayı o sürüm yayımlanmadan önce güncelleriz ve yürürlük tarihini değiştiririz.</p>
 
     <h2>10. İletişim</h2>
     <p>Ersin Aydoğmuş · <span class="mail">ersincodes@gmail.com</span></p>
@@ -124,7 +129,7 @@
 
   <article id="en" lang="en">
     <h1>Privacy Policy</h1>
-    <p class="date">Effective date: November 11, 2026 (version 0.14.2: Meta ad measurement on iPhone; previous version November 3, 2026)</p>
+    <p class="date">Effective date: November 25, 2026 (version 0.16.0: in-app purchase; previous version November 11, 2026)</p>
     <p class="summary">In short: Kazı itself collects no personal data; your game progress is stored only on your own device. To stay free, the game shows Google AdMob ads. For the ads, information such as your device's advertising ID, your approximate location (from your IP address) and your interactions with ads goes to Google. On iPhone, after the tracking permission has been asked, installs and launches of the game are reported to Meta to measure our ads. Watching rewarded ads is your choice.</p>
 
     <h2>1. Who we are</h2>
@@ -138,6 +143,7 @@
     <ul>
       <li>Your game progress: the dig site, items you found, coins, quests and settings (language, sound, camera).</li>
       <li>The name you give your digger (optional; the default is "Kazım"). You do not have to use your real name.</li>
+      <li>The maps you bought (only the product name, for example Göbekli Tepe), so that they stay unlocked.</li>
       <li>Ad counters: how many times you watched each rewarded ad today, total play time and whether you saw the "About ads" note. They are used only to limit how often ads appear.</li>
       <li>When you last played, and a cache of block textures.</li>
     </ul>
@@ -157,16 +163,20 @@
     <h2>4a. Ad measurement (Meta, iPhone only)</h2>
     <p>We promote Kazı with ads on Instagram and Facebook. To measure whether those ads work, the iPhone version of the game (from version 0.14.2) includes Meta Platforms' measurement software (the Meta SDK). It only starts after Apple's tracking permission has been asked and you have answered. It tells Meta that the game was installed and opened, along with your device model, operating system, language and time zone and your approximate IP address, and, if you allowed tracking, your device's advertising identifier (IDFA). There is no Facebook or Instagram sign-in in the game, and what you do inside the game is not sent to Meta. Meta uses this information to measure the results of our ads and to show them to people who may be interested; if you decline tracking, measurement is aggregated and anonymous through Apple's SKAdNetwork. Details: <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>. You can turn the permission off at any time in the iPhone's Settings → Privacy &amp; Security → Tracking. The Android version does not include Meta's software.</p>
 
+    <h2>4b. In-app purchase</h2>
+    <p>The first three maps are free; the fourth map, Göbekli Tepe, unlocks with a <strong>one-time in-app purchase</strong> through Google Play or the App Store. The payment and your payment details (card, billing, account) are handled only by Google or Apple; we never see them. The game stores on your device that the purchase was made and, when it starts, asks the store's own software (Google Play Billing, Apple StoreKit) for the purchases on your account, so the map comes back if you change phones or reinstall the game (<strong>Settings → Purchases → Restore</strong>). This information is never sent to us or to anyone else. Refunds follow the store's rules (<a href="https://support.google.com/googleplay/answer/2479637">Google Play</a>, <a href="https://support.apple.com/118223">App Store</a>).</p>
+
     <h2>5. Permissions and device features</h2>
     <ul>
-      <li><strong>Internet and network state:</strong> only to load ads.</li>
+      <li><strong>Internet and network state:</strong> only to load ads and to let the store check your purchases.</li>
+      <li><strong>Billing (BILLING on Android):</strong> to open Google Play's purchase window.</li>
       <li><strong>Advertising ID (AD_ID on Android):</strong> requested by Google's ads software for advertising.</li>
       <li><strong>Vibration:</strong> short haptic feedback while digging and when you find something.</li>
       <li><strong>Device time and date:</strong> read on your device for the night camp, special-day surprises and the Daily Dig; never sent to us.</li>
     </ul>
 
     <h2>6. App stores</h2>
-    <p>When you download the game from Google Play or the App Store, those stores process data under their own privacy policies (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/legal/privacy/">Apple</a>). The stores, AdMob and Meta give us only aggregated statistics that do not identify you, such as download counts, countries, device models, crash reports and ad revenue.</p>
+    <p>When you download the game from Google Play or the App Store, those stores process data under their own privacy policies (<a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.apple.com/legal/privacy/">Apple</a>). The stores, AdMob and Meta give us only aggregated statistics that do not identify you, such as download counts, countries, device models, crash reports, ad revenue and sales.</p>
 
     <h2>7. Children</h2>
     <p>Kazı is published for players aged 13 and over. We do not knowingly process personal data of children under 13, and ads are limited to family-friendly content. If you are a parent and think your child plays the game, contact us.</p>
@@ -175,7 +185,7 @@
     <p>Because we hold no data about you, there is nothing for us to delete, correct or export. You can delete all game data on your device by uninstalling the game. For the advertising data processed by Google, use the choices in section 4 and Google's own tools. For the measurement data processed by Meta, turn off tracking permission on your iPhone, use Meta's <a href="https://www.facebook.com/help/contact/540977946302970">data request form</a>, or write to us and we will pass your request on to Meta. For your rights under Article 11 of the KVKK (and other laws such as the GDPR), contact us.</p>
 
     <h2>9. Changes</h2>
-    <p>If we add new data processing (for example in-app purchases or online features), we will update this policy before that version is released and change the effective date.</p>
+    <p>If we add new data processing (for example an online feature), we will update this policy before that version is released and change the effective date.</p>
 
     <h2>10. Contact</h2>
     <p>Ersin Aydoğmuş · <span class="mail">ersincodes@gmail.com</span></p>
